@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Scrapes Away</title>
+    <style>
+        body {
+            background-image: url(https://i.pinimg.com/originals/e3/36/b6/e336b6bc80e04e703b53da4b46235735.jpg);
+        }
+
+        #wrapper {
+            width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 3%;
+        }
+
+        #questions {
+            display: inline-block;
+            overflow: auto;
+            width: 60%;
+            height: 600px;
+            font-weight: bold;
+        }
+
+        #notes {
+            float: right;
+            width: 30%;
+            color: White;
+            background-color: black;
+            padding: 15px;
+        }
+
+        textarea,
+        input {
+            display: block;
+            width: 100%;
+            background-color: white;
+        }
+
+        textarea {
+            height: 100px;
+            font-size: 18px;
+        }
+
+        .container {
+            position: relative !important;
+            margin: 0 auto !important;
+            width: 960px !important;
+            font-size: 18px;
+            border-radius: 35px;
+            padding: 20px;
+            background-color: white !important;
+            text-align: justify;
+            opacity: .9;
+        }
+
+        h1 {
+            font-size: 56px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1 class="text-center mt-5 text-white">Scrapes Away</h1>
+
+    <div id="wrapper">
+        <h2><i></i></h2>
+        <div class="container">
+            <h2>Questions</h2>
+            <br>
+            <div id="questions"></div>
+            <div id="notes"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/app.js"></script>
+
+    <br>
+    <br>
+
+
+</body>
+
+</html>
