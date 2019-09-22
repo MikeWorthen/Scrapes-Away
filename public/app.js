@@ -50,6 +50,7 @@ $.getJSON("/questions", function(data) {
         $("#notes").empty();
       });
   
+      
     // Also, remove the values entered in the input and textarea for note entry
     $("#titleinput").val("");
     $("#bodyinput").val("");
